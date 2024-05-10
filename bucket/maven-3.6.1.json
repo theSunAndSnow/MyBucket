@@ -1,0 +1,10 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "3.6.1",
+    "description": "This version is compatible with IDEA_2019.3",
+    "homepage": "https://archive.apache.org/dist/maven/maven-3/",
+    "notes": "",
+    "url": "https://archive.apache.org/dist/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.zip",
+    "hash": "7e6cfe98dc9c16ae6aa267db277860594695144d719c99d1fc519e89346a8edf",
+    "bin": "maven.exe"
+}
