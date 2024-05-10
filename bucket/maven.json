@@ -8,7 +8,6 @@
     "homepage": "https://archive.apache.org/",
     "url": "https://archive.apache.org/dist/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.zip",
     "hash": "7e6cfe98dc9c16ae6aa267db277860594695144d719c99d1fc519e89346a8edf",
-    "bin": "maven.exe",
     "extract_dir": "apache-maven-3.6.1",
     "env_add_path":"bin",
     "persist": [
