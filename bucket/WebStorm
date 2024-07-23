@@ -22,7 +22,7 @@
                     "JetBrains\\WebStorm (Early Access Program)"
                 ]
             ]
-        },
+        }
     },
     "persist": [
         "IDE\\bin\\idea.properties",
