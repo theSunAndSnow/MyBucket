@@ -1,0 +1,28 @@
+{
+    "version": "2023.3.7",
+    "description": "Cross-Platform IDE for Java by JetBrains. (Community Edition, Early Access Program)",
+    "homepage": "https://www.jetbrains.com/idea/",
+    "url": "https://download.jetbrains.com.cn/idea/ideaIU-2023.3.7.win.zip",
+    "hash": "001d8e7662a58a65d5bd8477fd93daecb069e91e0f16360457e42f14f1e838dd",
+    "extract_to": "IDE",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "IDE\\bin\\idea64.exe",
+                    "idea"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "IDE\\bin\\idea64.exe",
+                    "JetBrains\\IDEA"
+                ]
+            ]
+        }
+    },
+    "persist": [
+        "IDE\\bin\\idea.properties",
+        "profile"
+    ]
+}
