@@ -1,31 +1,23 @@
 {
-    "version": "2023.3.7",
-    "description": "Cross-Platform IDE for JavaScript by JetBrains. (Early Access Program)",
-    "homepage": "https://www.jetbrains.com/webstorm/",
-    "suggest": {
-        "JDK": "java/openjdk"
-    },
-    "url": "https://download.jetbrains.com.cn/webstorm/WebStorm-2023.3.7.win.zip",
-    "hash": "1f05ddc8a9539e399539d57398c7645b18105ca8e10a2da4d14c4297b2830094",
-    "extract_to": "IDE",
-    "architecture": {
-        "64bit": {
-            "bin": [
-                [
-                    "IDE\\bin\\webstorm64.exe",
-                    "webstorm"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "IDE\\bin\\webstorm64.exe",
-                    "JetBrains\\WebStorm (Early Access Program)"
-                ]
-            ]
-        }
-    },
-    "persist": [
-        "IDE\\bin\\idea.properties",
-        "profile"
-    ]
+  "version": "2023.3.7",
+  "description": "Cross-Platform IDE for JavaScript by JetBrains. (Early Access Program)",
+  "homepage": "https://www.jetbrains.com/webstorm/",
+  "suggest": {
+    "JDK": "java/openjdk"
+  },
+  "url": "https://download.jetbrains.com.cn/webstorm/WebStorm-2023.3.7.win.zip",
+  "hash": "1f05ddc8a9539e399539d57398c7645b18105ca8e10a2da4d14c4297b2830094",
+  "extract_to": "IDE",
+  "architecture": {
+    "64bit": {
+      "bin": [["IDE\\bin\\webstorm64.exe", "webstorm"]],
+      "shortcuts": [
+        [
+          "IDE\\bin\\webstorm64.exe",
+          "JetBrains\\WebStorm (Early Access Program)"
+        ]
+      ]
+    }
+  },
+  "persist": ["IDE\\bin\\idea.properties", "profile"]
 }
